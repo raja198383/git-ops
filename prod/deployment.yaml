@@ -17,7 +17,7 @@ spec:
       - name: imagepull-docker
       containers:
       - name: hello-world
-        image: jg/knative-helloworld:latest
+        image: public.ecr.aws/jg/knative-helloworld:latest
         imagePullPolicy: Always
         ports:
           - containerPort: 8080
