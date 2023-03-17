@@ -16,7 +16,7 @@ spec:
       imagePullSecrets:
       - name: imagepull-docker
       containers:
-      - name: hello-world
+      - name: hello-world1
         image: public.ecr.aws/jg/knative-helloworld:latest
         imagePullPolicy: Always
         ports:
