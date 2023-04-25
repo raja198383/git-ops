@@ -6,15 +6,7 @@ metadata:
     app.kubernetes.io/instance: cloud-dev
   name: hello-world
   namespace: argocd  
-spec:
-  clusterIP: 100.67.16.114
-  clusterIPs:
-  - 100.67.16.114
-  externalTrafficPolicy: Cluster
-  internalTrafficPolicy: Cluster
-  ipFamilies:
-  - IPv4
-  ipFamilyPolicy: SingleStack
+spec:  
   ports:
   - nodePort: 31892
     port: 8080
