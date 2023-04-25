@@ -15,6 +15,6 @@ spec:
   selector:
     app: hello-world
   sessionAffinity: None
-  type: NodePort
+  type: LoadBalancer
 status:
   loadBalancer: {}
