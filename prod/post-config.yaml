@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: mongo-config
 data:
-  mongo-url: devops-poc-database.c1zhtbitprsj.ap-southeast-1.rds.amazonaws.com
+  mongo-url: 
