@@ -4,3 +4,5 @@ metadata:
   name: mongo-config
 data:
   mongo-url: 
+  PAYMENT_API: 
+  
