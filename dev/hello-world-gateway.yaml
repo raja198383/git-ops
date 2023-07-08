@@ -9,7 +9,7 @@ spec:
     istio: ingressgateway # use istio default controller
   servers:
   - port:
-      number: 80
+      number: 90
       name: http
       protocol: HTTP
     hosts:
@@ -32,4 +32,4 @@ spec:
     - destination:
         host: hello-world
         port:
-          number: 8080
+          number: 9090
