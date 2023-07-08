@@ -8,11 +8,9 @@ spec:
   selector:
     istio: ingressgateway # use istio default controller
   servers:
-   - hosts:
-      - default.kubernetes.default.svc
-   port:
+  - port:
       number: 80
-      name: http-port
+      name: http
       protocol: HTTP
     hosts:
     - "*"
@@ -32,6 +30,6 @@ spec:
         prefix: /
     route:
     - destination:
-        host: default.kubernetes.default.svc
+        host: hello-world
         port:
           number: 8080
