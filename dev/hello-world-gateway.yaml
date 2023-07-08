@@ -26,7 +26,7 @@ spec:
   - hello-world-gateway
   http:
   - match:      
-    - 
+    - uri:
         prefix: 
     route:
     - destination:
