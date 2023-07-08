@@ -10,7 +10,7 @@ spec:
   servers:
    - hosts:
       - default.kubernetes.default.svc
-  - port:
+   port:
       number: 80
       name: http-port
       protocol: HTTP
