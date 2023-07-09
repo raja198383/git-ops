@@ -16,5 +16,5 @@ spec:
       route:
         - destination:
             host: hello-world
-          port:
-            number: 8080
+            port:
+              number: 8080
