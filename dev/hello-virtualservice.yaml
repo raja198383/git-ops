@@ -8,7 +8,9 @@ spec:
   - hello.world.cloud.com
   gateways:
   - cloud-gateway
-  http: 
+  http:  
+    - uri:
+        prefix: /   
     route:
     - destination:
         host: hello-world
