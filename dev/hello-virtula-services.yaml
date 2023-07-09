@@ -1,7 +1,7 @@
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
 metadata:
-  name: hello-world--Virtual-service
+  name: hello-world-Virtual-service
   namespace: istio-system
 spec:
   hosts:
@@ -11,6 +11,6 @@ spec:
   http:  
     route:
     - destination:
-        host: hello.world.
+        host: hello.world.default.svc.cluster.aws.com
         port:
           number: 8080
