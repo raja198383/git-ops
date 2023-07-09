@@ -8,11 +8,13 @@ spec:
   - hello.world.cloud.com
   gateways:
   - cloud-gateway
-  http:  
-    - uri:
-        prefix: /   
-    route:
-    - destination:
-        host: hello-world
-        port:
-          number: 8080
+  http:
+    - name: isti-demo
+      match:
+        - uri:
+            prefix: /   
+      route:
+        - destination:
+            host: hello-world
+          port:
+            number: 8080
