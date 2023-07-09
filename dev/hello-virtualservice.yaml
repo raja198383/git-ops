@@ -8,9 +8,9 @@ spec:
   - hello.world.cloud.com
   gateways:
   - cloud-gateway
-  http:  
+  http: 
     route:
     - destination:
-        host: hello-world.default.svc.cluster.aws.com
+        host: hello-world
         port:
           number: 8080
