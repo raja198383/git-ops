@@ -9,6 +9,9 @@ spec:
   gateways:
   - cloud-gateway
   http:
+  - match:    
+    - uri:
+        prefix: /
     - name: isti-demo      
       route:
         - destination:
