@@ -12,6 +12,6 @@ spec:
     - name: isti-demo      
       route:
         - destination:
-            host: hello-world
+            host: hello-world.default.svc.luster.local
             port:
               number: 8080
