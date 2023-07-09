@@ -4,7 +4,7 @@ metadata:
   name: hello-vs
 spec:
   hosts:
-  - "*"
+  - hello.cloud.com
   gateways:
   - cloud-gateway
   http:
