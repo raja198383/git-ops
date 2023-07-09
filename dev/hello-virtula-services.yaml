@@ -1,7 +1,7 @@
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
 metadata:
-  name: hello-world-virtual-service
+  name: hello.world.virtualservice
   namespace: istio-system
 spec:
   hosts:
