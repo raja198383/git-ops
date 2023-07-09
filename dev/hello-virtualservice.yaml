@@ -11,10 +11,9 @@ spec:
   http:
   - match:    
     - uri:
-        prefix: /
-    - name: isti-demo      
-      route:
-        - destination:
-            host: hello-world
-            port:
-              number: 8080
+        prefix: /      
+    route:
+      - destination:
+          host: hello-world
+          port:
+            number: 8080
