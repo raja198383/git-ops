@@ -11,6 +11,6 @@ spec:
   http:  
     route:
     - destination:
-        host: hello.world.default.svc.cluster.aws.com
+        host: hello-world.default.svc.cluster.aws.com
         port:
           number: 8080
