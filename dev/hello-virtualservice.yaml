@@ -8,10 +8,9 @@ spec:
   - hello.cloud.com
   gateways:
   - cloud-gateway
-  http:
- 
+  http: 
     route:
-    - destination:
-        host: hello-world.default.svc.cluster.local
-        port:
-          number: 8080
+      - destination:
+          host: hello-world.default.svc.cluster.local
+          port:
+            number: 8080
