@@ -5,12 +5,12 @@ metadata:
   namespace: istio-system
 spec:
   hosts:
-  - hello.cloud.com
+  - "*"
   gateways:
   - cloud-gateway
   http: 
     route:
-      - destination:
-          host: hello-world.default.svc.cluster.local
-          port:
-            number: 8080
+    - destination:
+        host: hello-world.default.svc.cluster.local
+        port:
+          number: 8080
