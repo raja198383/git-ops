@@ -9,9 +9,7 @@ spec:
   gateways:
   - cloud-gateway
   http:
-  - match:    
-    - uri:
-        prefix: /*
+ 
     route:
     - destination:
         host: hello-world.default.svc.cluster.local
