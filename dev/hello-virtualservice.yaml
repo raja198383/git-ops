@@ -11,6 +11,6 @@ spec:
   http: 
     route:
     - destination:
-        host: hello-world.default.svc.cluster.local
-        port:
-          number: 80
+          host: hello-world.default.svc.cluster.local
+          port:
+            number: 80
