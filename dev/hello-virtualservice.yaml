@@ -10,7 +10,7 @@ spec:
   http:
   - match:    
     - uri:
-        prefix: /
+        prefix: /*
     route:
     - destination:
         host: hello-world.default.svc.cluster.local
