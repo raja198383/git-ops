@@ -5,7 +5,7 @@ metadata:
   namespace: istio-system
 spec:
   hosts:
-  - "*"
+  - hello.cloud.com
   gateways:
   - cloud-gateway
   http: 
