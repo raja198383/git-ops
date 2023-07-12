@@ -43,8 +43,9 @@ metadata:
   name: istio-hellow-alb
   namespace: istio-system
 spec:
-  ingressClassName: alb
+  ingressClassName: alb  
   rules:
+  - host: hello.cloud.ingress.com  # The domain name of the Ingress
   - http:
       paths:
       - backend:
