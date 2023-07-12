@@ -6,7 +6,7 @@ spec:
   hosts:
   - hello-world.com
   gateways:
-  - bookinfo-gateway
+  - cloud-gateway
   http:
   - match:    
     - uri:
@@ -20,7 +20,7 @@ spec:
 apiVersion: networking.istio.io/v1alpha3
 kind: Gateway
 metadata:
-  name: bookinfo-gateway
+  name: cloud-gateway
 spec:
   # The selector matches the ingress gateway pod labels.
   # If you installed Istio using Helm following the standard documentation, this would be "istio=ingress"
