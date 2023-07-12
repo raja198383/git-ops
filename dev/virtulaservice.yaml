@@ -45,7 +45,7 @@ metadata:
 spec:
   ingressClassName: alb  
   rules:
-  - host: hello.cloud.ingress.com  # The domain name of the Ingress
+  - host: hello.cloud.com  # The domain name of the Ingress
   - http:
       paths:
       - backend:
