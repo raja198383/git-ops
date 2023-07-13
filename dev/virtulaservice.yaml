@@ -55,4 +55,23 @@ spec:
               number: 80
         path: /*
         pathType: ImplementationSpecific
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: prometehus-vs  
+spec:
+  hosts:
+  - prometheus.cloudautomate.in
+  gateways:
+  - cloud-gateway
+  http:
+  - match:    
+    - uri:
+        prefix: /
+    route:
+    - destination:
+        host: prometheus
+        port:
+          number: 8080
 
