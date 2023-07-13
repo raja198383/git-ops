@@ -62,7 +62,7 @@ metadata:
   name: prometheus-vs  
 spec:
   hosts:
-  - prometheus.cloudautomate.in
+  - "*"
   gateways:
   - cloud-gateway
   http:
