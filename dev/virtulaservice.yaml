@@ -4,7 +4,7 @@ metadata:
   name: hello-vs  
 spec:
   hosts:
-  - hello.world.cloudautomate.in
+  - helloworld.cloudautomate.in
   gateways:
   - cloud-gateway
   http:
