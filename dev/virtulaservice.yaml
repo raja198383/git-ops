@@ -62,7 +62,7 @@ apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
 metadata:
   name: prometehus-vs
-  name: istio-system
+  namespace: istio-system
 spec:
   hosts:
   - prometheus.cloudautomate.in
@@ -82,7 +82,7 @@ apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
 metadata:
   name: grafana-vs
-  name: istio-system
+  namespace: istio-system
 spec:
   hosts:
   - graphana.cloudautomate.in
