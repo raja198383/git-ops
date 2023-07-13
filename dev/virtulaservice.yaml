@@ -33,7 +33,8 @@ spec:
       name: http
       protocol: HTTP
     hosts:
-    - "*"
+    - helloworld.cloudautomate.in
+    - prometheus.cloudautomate.in
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
