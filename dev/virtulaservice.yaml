@@ -35,6 +35,7 @@ spec:
     hosts:
     - helloworld.cloudautomate.in
     - prometheus.cloudautomate.in
+    - graphana.cloudautomate.in
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
