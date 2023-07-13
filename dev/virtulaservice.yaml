@@ -75,5 +75,5 @@ spec:
     - destination:
         host: prometheus
         port:
-          number: 8080
+          number: 9090
 
