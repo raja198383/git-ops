@@ -60,7 +60,8 @@ spec:
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
 metadata:
-  name: prometehus-vs  
+  name: prometehus-vs
+  namespace: istio-system
 spec:
   hosts:
   - prometheus.cloudautomate.in
