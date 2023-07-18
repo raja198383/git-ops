@@ -55,9 +55,6 @@ spec:
               number: 80
         path: /*
         pathType: ImplementationSpecific
-
-
-
 ---
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
